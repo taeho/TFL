@@ -26,7 +26,8 @@ public class DetectorFactory {
 //                    10,13, 16,30, 33,23, 30,61, 62,45, 59,119, 116,90, 156,198, 373,326
 //            };
 //        }
-        else if (modelFilename.equals("ramen.tflite")) {
+//      else if (modelFilename.equals("ramen.tflite")) {
+        if (modelFilename.equals("ramen.tflite")) {
             labelFilename = "file:///android_asset/ramen.txt";
             isQuantized = false;
             inputSize = 640;
